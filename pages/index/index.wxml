@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+<view class='diploma-div'>
+    <view class='diploma-bg'>
+        <image src='../images/diploma_bg.jpg' class='diploma-bg'></image>
+    </view>
+    <view class='diploma-head'>
+        <image bindtap="chooseimage" class="userinfo-avatar" src="{{tempFilePaths}}" mode="cover"></image>
+    </view>
+    <view class='diploma-container'>
+        {{userInfo.nickName}}拥有人生（第一只）喵星人——已向猫狗双全的人生巅峰迈出了坚实的第一步特发此证以资鼓励。
+    </view>
+   <view class='diploma-time'>
+        {{logs}}
+    </view>
+    <view class='diploma-hint'>
+        赶紧扫码关注,拥有第一张《有猫证》吧
+    </view>
+    <!-- <button open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button> -->
+</view>

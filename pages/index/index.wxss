@@ -1,0 +1,86 @@
+/**index.wxss**/
+/*.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}*/
+
+
+
+
+.diploma-div{
+    width:650rpx;
+    height: 472rpx;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.diploma-div .diploma-bg{
+    width: 100%;
+    height: 100%;
+}
+.diploma-div .diploma-head{
+    position: fixed;
+    top: 15%;
+    right: 10%;
+    width: 85rpx;
+    height: 100rpx;
+}
+.diploma-div .diploma-head .userinfo-avatar{
+    width: 100%;
+    height: 100%;
+}
+.diploma-div .diploma-container{
+    position: fixed;
+    top: 40%;
+    left: 28%;
+    font-size: 20rpx;
+    font-family: "仿宋体";
+    width: 350rpx;
+    color:#3e3e36;
+}
+.diploma-div .diploma-qr{
+    position: fixed;
+    bottom: 22%;
+    left: 28%;
+    background: pink;
+    width:80rpx;
+    height:80rpx;
+}
+.diploma-div .diploma-hint{
+    position: fixed;
+    bottom: 16%;
+    left:15%;
+    font-size: 18rpx;
+    color:#3e3e36;
+}
+.diploma-div .diploma-time{
+    position: fixed;
+    bottom: 18%;
+    right: 8%;
+    font-size: 18rpx;
+    color:#3e3e36;
+}
+
+
+
+
+
+
+
